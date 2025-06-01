@@ -91,5 +91,9 @@ This decomposition helps assess **product-level capital consumption** and suppor
 
 This is an independent academic project for illustrative purposes only. The models and assumptions used herein are simplified and do not reflect the complexities of production-grade risk engines.
 
+---
 
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
 

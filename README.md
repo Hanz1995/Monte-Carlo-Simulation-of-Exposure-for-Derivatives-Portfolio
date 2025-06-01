@@ -40,7 +40,7 @@ Simulations are performed on a **monthly basis**, with each product modeled over
 - EE and PFE are aggregated across paths for each future date
 
 ### Regulatory Metrics
-- **EAD** = \( \alpha \cdot \max(\text{EE}) \), with \( \alpha = 1.4 \)
+- **EAD** = $\( \alpha \cdot \max(\text{EE}) \), with \( \alpha = 1.4 \)$
 - **RWA** = EAD × standardized risk weight (20%)
 - The exposure curve reflects the time-varying nature of market-dependent counterparty risk
 
@@ -61,11 +61,14 @@ The project includes the following charts:
 
 ##  Capital Summary by Product
 
-| Product | EAD        | RWA        |
-|---------|------------|------------|
-| IRS     | *$IRS_EAD* | *$IRS_RWA* |
-| FX Fwd  | *$FX_EAD*  | *$FX_RWA*  |
-| **Total**   | **$TOTAL_EAD** | **$TOTAL_RWA** |
+| Metric         | USD (million) |
+|----------------|----------------|
+| EAD (IRS)      | 296.19         |
+| EAD (FX)       | 31,526.53      |
+| **EAD (Total)**| **31,822.72**  |
+| RWA (IRS)      | 59.24          |
+| RWA (FX)       | 6,305.31       |
+| **RWA (Total)**| **6,364.54**   |
 
 These results reflect:
 - Independent simulation and exposure calculation per product
@@ -74,7 +77,19 @@ These results reflect:
 
 This decomposition helps assess **product-level capital consumption** and supports granular **risk-based decision making**.
 
+
 ---
 
-##  File Structure
+## References
+
+- [Basel III: Finalising post-crisis reforms](https://www.bis.org/bcbs/publ/d424.htm)
+- [SR 11-7: Federal Reserve Guidance on Model Risk Management](https://www.federalreserve.gov/supervisionreg/srletters/sr1107.htm)
+
+---
+
+## Disclaimer
+
+This is an independent academic project for illustrative purposes only. The models and assumptions used herein are simplified and do not reflect the complexities of production-grade risk engines.
+
+
 
